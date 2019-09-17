@@ -4,9 +4,9 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class MyFirstController {
-    
+
     public String MyFirstRoute(){
-        return "hello world";
+        return "helo world";
     }
 
 }
