@@ -23,6 +23,7 @@ public class Cours1ApplicationTests {
 
 
 	@Test
+	//Teste aue Spring demare bien
 	public void contextLoads() {
 
 		myservice.maFirstFunction();
