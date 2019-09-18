@@ -35,10 +35,11 @@ public class Cours1ApplicationTests {
 //		assertFalse(true);
 
 	}
-	public void contextLoads2() {
+	public void contextLoads1() {
 //		MyFirstService myfirstservice = new MyFirstService();
 //		System.out.println(myfirstservice.myFirstfunction());
 		assert mySecondService.mySecondFunction() ==1;
+
 //		assertFalse(true);
 
 	}
