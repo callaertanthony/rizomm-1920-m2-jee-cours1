@@ -16,3 +16,5 @@ AU lancement de Spring , il regarde
 @Service il comprend l'annotation @Component
 il cree une intance et on l'injecte avec autowiredd
 > ALT + ENTREE IMPORTER
+
+* **passParam**: /users/**{iD}**
