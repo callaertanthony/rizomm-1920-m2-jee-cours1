@@ -35,4 +35,6 @@ public class Cours1ApplicationTests {
 	public void mySecondTest(){
 		assertTrue(mySecondService.mySecondFunction().equals(2));
 	}
+
+
 }
