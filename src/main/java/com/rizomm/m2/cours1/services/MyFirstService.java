@@ -1,29 +1,35 @@
 package com.rizomm.m2.cours1.services;
 
 
+
 import org.springframework.stereotype.Service;
 
 @Service
-public class MyFirstService {
 
-int ct=0;
+//
+//int ct=0;
+//
+//public int myFirstfunction(){
+//
+//    ++ct;
+//    System.out.print(ct);
+//
+//
+//return ct;
+//
+//
+//
+//
+//
+//
+//
+//
+//}
 
-public int myFirstfunction(){
 
-    ++ct;
-    System.out.print(ct);
+public interface MyFirstService {
 
-
-return ct;
-
-
-
-
-
-
-
-
-}
+  String helloWorld();
 
 
 }
