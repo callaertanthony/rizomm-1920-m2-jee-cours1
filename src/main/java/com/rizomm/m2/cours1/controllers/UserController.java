@@ -18,11 +18,11 @@ public class UserController {
     {
         User user = userService.getUser(id);
 
-        if (user != null) {
-            return ResponseEntity.ok().body(user);
+        if (user == null) {
+            return ResponseEntity.notFound().build();
         }
 
-        return ResponseEntity.notFound().build();
+        return ResponseEntity.ok().body(user);
     }
 
     @PostMapping
