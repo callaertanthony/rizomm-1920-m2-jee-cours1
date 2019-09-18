@@ -1,5 +1,6 @@
 package com.rizomm.m2.cours1.services;
 
+import com.rizomm.m2.cours1.services.impl.MyFirstServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -7,10 +8,10 @@ import org.springframework.stereotype.Service;
 public class MySecondService {
 
     @Autowired
-    MyFirstService unService;
+    MyFirstServiceImpl unService;
 
-    public int mySecondFunction(){
-       return unService.maFirstFunction();
+    public String mySecondFunction(){
+       return unService.helloWorld();
     }
 
 }

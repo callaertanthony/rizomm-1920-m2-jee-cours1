@@ -26,29 +26,9 @@ public class Cours1ApplicationTests {
 	//Teste aue Spring demare bien
 	public void contextLoads() {
 
-		myservice.maFirstFunction();
-
-//		assert (myservice.maFirstFunction()==1);
-
-
 	}
 
-	@Test
-	public void contextLoads2() {
 
-		myservice.maFirstFunction();
-
-//		assert (myservice.maFirstFunction()==1);
-
-
-	}
-
-	@Test
-	public  void textContext(){
-//		myservice2.mySecondFunction();
-
-		assert (myservice2.mySecondFunction()==1);
-	}
 
 
 
