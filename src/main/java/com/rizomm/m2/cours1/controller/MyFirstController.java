@@ -9,4 +9,4 @@ public class MyFirstController {
     @GetMapping(value = "/")
     public void getMethod() {
     }
-}Œ
+}
