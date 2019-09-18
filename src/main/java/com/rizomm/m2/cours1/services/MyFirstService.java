@@ -1,20 +1,7 @@
 package com.rizomm.m2.cours1.services;
 
-import org.springframework.stereotype.Service;
+public interface MyFirstService {
 
-@Service
-public class MyFirstService {
-    public Integer counter = 0;
+  String helloWorld();
 
-    static public Integer myFirstFunction() {
-        return 42;
-    }
-
-    public Integer myFunctionAsAService() {
-        return 42;
-    }
-
-    public Integer myIncrement(){
-        return ++counter;
-    }
 }
