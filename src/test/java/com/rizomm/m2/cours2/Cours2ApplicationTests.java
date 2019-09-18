@@ -1,4 +1,4 @@
-package com.rizomm.m2.cours1;
+package com.rizomm.m2.cours2;
 
 import com.rizomm.m2.cours1.entities.User;
 import com.rizomm.m2.cours1.services.UserService;
@@ -11,17 +11,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Cours1ApplicationTests {
+public class Cours2ApplicationTests {
 
-	@Autowired
+    @Autowired
     private UserService userService;
 
-	@Test
-	public void contextLoads() {
 
-	}
-
-	@Test
+    @Test
     public void testUser() {
         User user = userService.getUser(1);
 
