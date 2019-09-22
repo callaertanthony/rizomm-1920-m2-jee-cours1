@@ -31,9 +31,9 @@ public class MyFirstServiceTest {
     public void must_return_user(Integer id) {
       User user = serviceUser.createUser(id);
 
-      Assert.assertEquals("Redha",user.getFirstName());
-      Assert.assertEquals("Benzine",user.getLastName());
-      Assert.assertEquals("monmail@catho.fr",user.getMail());
+      Assert.assertEquals("Hichem",user.getFirstName());
+      Assert.assertEquals("Bedjaoui",user.getLastName());
+      Assert.assertEquals("Hichem@lacatholille.fr",user.getMail());
     }
 
   }
